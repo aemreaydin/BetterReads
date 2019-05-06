@@ -1,0 +1,15 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title Page not Found :(
+        link(rel="icon", href="./images/favicon.ico", type="image/x-icon")
+        link(rel="stylesheet", href="css/reset.css", type="text/css")
+        link(rel="stylesheet", href="css/error.css", type="text/css")
+    body
+        div(class='inline-middle')
+            h2=status
+            div
+                p=message
+                if(error)
+                    pre=error.stack

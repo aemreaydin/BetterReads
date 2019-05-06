@@ -1,0 +1,10 @@
+.inline-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.inline-middle > * {
+    display: inline-block;
+    align-self: center
+}

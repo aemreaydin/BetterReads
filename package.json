@@ -1,0 +1,21 @@
+{
+  "name": "node_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clear & nodemon -r esm server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.22"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-errors": "^1.7.2",
+    "pug": "^2.0.3"
+  }
+}
