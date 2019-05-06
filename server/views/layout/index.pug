@@ -5,7 +5,21 @@ html(lang='en')
         title BestReads
         link(rel="icon", href="./images/favicon.ico", type="image/x-icon")
         link(rel="stylesheet", href="css/reset.css", type="text/css")
-        link(rel="stylesheet", href="css/error.css", type="text/css")
+        link(rel="stylesheet", href="css/style.css", type="text/css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700", type="text/css")
     body
-        h1 Index
-        p Index Page
+        header(class="site-header")
+            img(src="./images/book.png", alt="alt")
+            h1 Better Reads
+            nav
+                ul
+                    li
+                        a(href="") Books
+                    li
+                        a(href="") Authors
+                    li
+                        a(href="") About
+        section
+            block content
+        footer
+            p Made by Emre AYDIN
